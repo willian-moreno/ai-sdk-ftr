@@ -1,0 +1,20 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+        "source.removeUnusedImports": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        ".env": ".env.*",
+        ".gitignore": ".gitattributes, .dockerignore, .prettierignore, .eslintignore",
+        "AGENTS.md": "AGENTS.*.md, CLAUDE.md, CLAUDE.*.md, .cursorrules, copilot-instructions.md",
+        "package.json": ".npmrc, LICENSE, package-lock.json, eslint.config.*, next-env.d.ts, next.config.ts, pnpm-lock.yaml, pnpm-workspace.yaml, postcss.config.*, tailwind.config.*, tsconfig*.json",
+    },
+    "files.associations": {
+        "*.css": "tailwindcss",
+        "*.scss": "tailwindcss"
+    },
+    "js/ts.tsdk.path": "node_modules\\typescript\\lib"
+}
